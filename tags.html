@@ -1,0 +1,2477 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Tags</title>
+    <style type="text/css">
+        pre{
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de HTML Tags</h1>
+    </header>
+    <div>
+        <table style="border: 1px solid">
+            <caption>Lista de etiquetas HTML</caption>
+            <thead>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Descripción</th>
+                    <th>Ejemplo de uso</th>
+                    <th>Visual</th>
+                    <th>Complemento</th>
+                    <th>Atributos</th>
+                    <th>Chrome</th>
+                    <th>Explorer</th>
+                    <th>FireFox</th>
+                    <th>Safari</th>
+                    <th>Opera</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span><</span><span>!-- ... --</span><span>></span></td>
+                    <td><p>Sirve para colocar comentarios dentro del contenido HTML</p></td>
+                    <td>
+<pre>
+    <span><</span><span>!-- Este es un comentario --</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>!DOCTYPE</span><span>></span></td>
+                    <td><p>Específica el tipo de documento</p></td>
+                    <td>
+<pre>
+    <span><</span><span>!DOCTYPE html</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>a</span><span>></span></td>
+                    <td><p>Se utiliza para redirigirte a alguna parte del documento o a otra página</p></td>
+                    <td>
+<pre>
+    <span><</span><span>a href="https://google.com" target="_blank"</span><span>></span>
+        <span>Google</span>
+    <span><</span><span>/a</span><span>></span>
+</pre>
+                    </td>
+                    <td><a href="https://google.com" target="_blank">Google</a></td>
+                    <td>nav - ul</td>
+                    <td>href - target</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>abbr</span><span>></span></td>
+                    <td><p>Se utiliza para especificar una abreviación</p></td>
+                    <td>
+<pre>
+    <span><</span><span>abbr title="Organización de las Naciones Unidas"</span><span>></span>
+        <span>ONU</span>
+    <span><</span><span>/abbr</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <abbr title="Organización de las Naciones Undias">ONU</abbr>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>address</span><span>></span></td>
+                    <td><p>Se utiliza para especificar una abreviación</p></td>
+                    <td>
+<pre>
+    <span><</span><span>address</span><span>></span>
+        Escrito por: Charles Layet
+        Año: 2021
+    <span><</span><span>/address</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <address>
+                            <p>Escrito por: Charles Layet</p>
+                            <p>Año: 2021</p>
+                        </address>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>area</span><span>></span></td>
+                    <td><p>Especifica un área dentro del mapa de una imagen</p></td>
+                    <td>
+<pre>
+    <span><</span><span>img</span><span>/></span>
+    <span><</span><span>map</span><span>></span>
+        <span><</span><span>area shape="circle"
+    coords="337,300,44" href="op400.jpg" alt="Imagen"</span><span>></span>
+    <span><</span><span>/map</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <img src="op300.jpg" alt="Workplace" usemap="#workmap" width="100px" height="100px">
+                        <map name="workmap">
+                            <area shape="rect" coords="34,44,270,350" href="op50.jpg" alt="Imagen">
+                            <area shape="circle" coords="337,300,44" href="op400.jpg" alt="Imagen">
+                        </map>
+                    </td>
+                    <td>img - map</td>
+                    <td>shape - coords - href - alt </td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>article</span><span>></span></td>
+                    <td><p>Especifica una pieza independiente de contenido de un documento, como una entrada de blog o un artículo de algún periódico.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>article</span><span>></span>
+        <span>Google</span>
+    <span><</span><span>/aritcle</span><span>></span>
+</pre>
+                    </td>
+                    <td><article>Google</article></td>
+                    <td>h1 - p</td>
+                    <td>-</td>
+                    <td>6.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>aside</span><span>></span></td>
+                    <td><p>Especifica un fragmento de contenido que está ligeramente relacionado con el resto de la página.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>aside</span><span>></span>
+        <span>Google</span>
+    <span><</span><span>/aside</span><span>></span>
+</pre>
+                    </td>
+                    <td><aside>Google</aside></td>
+                    <td>h1 - p</td>
+                    <td>-</td>
+                    <td>6.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>audio</span><span>></span></td>
+                    <td><p>Especifica un archivo de audio.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>audio controls</span><span>></span>
+        <span><</span><span>source src="horse.mp3" type="audio/mpeg"</span><span>></span>
+    <span><</span><span>/audio</span><span>></span>
+</pre>
+                    </td>
+                    <td><audio controls></audio></td>
+                    <td>-</td>
+                    <td>controls</td>
+                    <td>4.0+</td>
+                    <td>9.0+</td>
+                    <td>3.5+</td>
+                    <td>4.0+</td>
+                    <td>11.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>b</span><span>></span></td>
+                    <td><p>Vuelve un texto en negritas, sin hacerlo importante.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>b</span><span>></span>
+        <span>Negritas</span>
+    <span><</span><span>/b</span><span>></span>
+</pre>
+                    </td>
+                    <td><b>Negritas</b></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>base</span><span>></span></td>
+                    <td><p>Especifica una base de URL para todos los links de la página..</p></td>
+                    <td>
+<pre>
+    <span><</span><span>base href="https://google.com/" target"_blank"</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>href - target</td>
+                    <td>4.0+</td>
+                    <td>9.0+</td>
+                    <td>3.5+</td>
+                    <td>4.0+</td>
+                    <td>11.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>bdi</span><span>></span></td>
+                    <td><p>Aisla lso nombres de usuario de la configuración de direción del texto circundante.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>bdi</span><span>></span>
+        <span>hrefs</span>
+    <span><</span><span>/bdi</span><span>></span>
+</pre>
+                    </td>
+                    <td><bdi>hrefs</bdi></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>16+</td>
+                    <td>79+</td>
+                    <td>10+</td>
+                    <td>-</td>
+                    <td>15+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>bdo</span><span>></span></td>
+                    <td><p>Especifica la dirección del texto.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>bdo dir="rtl"</span><span>></span>
+        <span>Este texto ira de derecha a izquierda</span>
+    <span><</span><span>/bdo</span><span>></span>
+</pre>
+                    </td>
+                    <td><bdo dir="rtl">Este texto ira de derecha a izquierda</bdo></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>blockquote</span><span>></span></td>
+                    <td><p>Especifica una cita larga.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>blockquote cite="https://www.worldwildlife.org"</span><span>></span>
+        <span>Por 50 años, WWF ha ido protegiendo
+            el futuro de la naturaleza.</span>
+    <span><</span><span>/blockquote</span><span>></span>
+</pre>
+                    </td>
+                    <td><blockquote cite="https://www.worldwildlife.org">Por 50 años, WWF ha ido protegiendo el futuro de la naturaleza.</blockquote></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>body</span><span>></span></td>
+                    <td><p>Especifica el cuerpo del documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>body</span><span>></span>
+    <span><</span><span>/body</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>La mayoría de las etiquetas</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>br</span><span>></span></td>
+                    <td><p>Inserta un salto de línea.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>br</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>button</span><span>></span></td>
+                    <td><p>Muestra un botón.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>button</span><span>></span>
+        <span>Botón</span>
+    <span><</span><span>/button</span><span>></span>
+</pre>
+                    </td>
+                    <td><button>Botón</button></td>
+                    <td>-</td>
+                    <td>type</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>canvas</span><span>></span></td>
+                    <td><p>Se utiliza para representar gráficos de mapa de bits dinámicos sobre la marcha, como gráficos o juegos.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>canvas id="myCanvas"</span><span>></span>
+        <span>Este texto ira de derecha a izquierda</span>
+    <span><</span><span>/canvas</span><span>></span>
+</pre>
+                    </td>
+                    <td><canvas>Tu navegador no soporta canvas</canvas></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>4.0+</td>
+                    <td>9.0+</td>
+                    <td>2.0+</td>
+                    <td>3.1+</td>
+                    <td>9.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>caption</span><span>></span></td>
+                    <td><p>Especifica el título de una tabla.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>caption</span><span>></span>
+        <span>Título</span>
+    <span><</span><span>/caption</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>table</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>cite</span><span>></span></td>
+                    <td><p>Usualmente la cita lo vuelve cursiva.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>cite</span><span>></span>
+        <span>The Scream</span>
+    <span><</span><span>/cite</span><span>></span>
+    <span>Por Edward Munch.</span>
+</pre>
+                    </td>
+                    <td><cite>The Scream </cite>Por Edward Munch.</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>code</span><span>></span></td>
+                    <td><p>Define un texto como código de computadora en un documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>code</span><span>></span>
+        <span>Botón</span>
+    <span><</span><span>/code</span><span>></span>
+</pre>
+                    </td>
+                    <td><code>Botón</code></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>col</span><span>></span></td>
+                    <td><p>Especifica un atributo para las columnas de una tabla.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>col span="2"</span><span>></span>
+    <span><</span><span>/col</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>table - colgroup</td>
+                    <td>span</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>colgroup</span><span>></span></td>
+                    <td><p>Especifica Agrupa las columnas de una tabla.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>colgroup</span><span>></span>
+    <span><</span><span>/colgroup</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>table - col</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>command</span><span>></span></td>
+                    <td><p>Especifica algún comando que el usuario pueda usar.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>command type="checklist" label="Check list"</span><span>></span>
+        <span>Check List</span>
+    <span><</span><span>/command</span><span>></span>
+</pre>
+                    </td>
+                    <td><command type="checkList" label="Check List">Check List</command></td>
+                    <td>-</td>
+                    <td>type - label</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>data</span><span>></span></td>
+                    <td><p>Agrega una traducción legible por máquina de un contenido determinado.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>data value="21053"</span><span>></span>
+        <span>Tomates</span>
+    <span><</span><span>/data</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <data value="21053">Tomates</data>
+                    </td>
+                    <td>ul - ol - li</td>
+                    <td>value</td>
+                    <td>62.0+</td>
+                    <td>13.0+</td>
+                    <td>22.0+</td>
+                    <td>-</td>
+                    <td>49.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>datalist</span><span>></span></td>
+                    <td><p>Se puede usar para hacer cuadros combinados.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>datalist id="browsers"</span><span>></span>
+    <span><</span><span>/datalist</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>select - option</td>
+                    <td>-</td>
+                    <td>20.0+</td>
+                    <td>10.0+</td>
+                    <td>4.0+</td>
+                    <td>12.1+</td>
+                    <td>9.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>dd</span><span>></span></td>
+                    <td><p>Especifica uan definición de descripción.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>dd</span><span>></span>
+        <span>Bebida caliente</span>
+    <span><</span><span>/dd</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <dl>
+                            <dt>Café</dt>
+                            <dd>Bebida caliente</dd>
+                        </dl>
+                    </td>
+                    <td>dl - dt</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>del</span><span>></span></td>
+                    <td><p>Especifica un texto eliminado.</p></td>
+                    <td>
+<pre>
+    <span>Mi color favorito es</span>
+    <span><</span><span>del</span><span>></span>
+        <span>azul</span>
+    <span><</span><span>/del</span><span>></span>
+    <span>rojo</span>
+</pre>
+                    </td>
+                    <td><p>Mi color favorito es <del>azul</del> rojo</p></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>details</span><span>></span></td>
+                    <td><p>Especifica detalles que un usuario puede abrir y cerrar cuando quiera.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>details</span><span>></span>
+        <span><</span><span>summary</span><span>></span>
+            <span>Epcot Center</span>
+        <span><</span><span>/summary</span><span>></span>
+        <span>Google es asombroso</span>
+    <span><</span><span>/details</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <details>
+                            <summary>Epcto Center</summary>
+                            Google es asombroso
+                        </details>
+                    </td>
+                    <td>summary - p</td>
+                    <td>-</td>
+                    <td>12.0+</td>
+                    <td>79.0+</td>
+                    <td>49.0+</td>
+                    <td>6.0+</td>
+                    <td>15.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>dfn</span><span>></span></td>
+                    <td><p>Especifica un término que será definido en el contenido.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>dfn</span><span>></span>
+        <span>HTML</span>
+    <span><</span><span>/dfn</span><span>></span>
+    <span>Es un lenguaje estándar de etiquetas</span>
+</pre>
+                    </td>
+                    <td><p><dfn>HTML</dfn> es un lenguaje estándar de etiquetas</p></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>dialog</span><span>></span></td>
+                    <td><p>Define un dialogo de caja o subventana.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>dialog open</span><span>></span>
+        <span>Este es un diálogo abierto</span>
+    <span><</span><span>/dialog</span><span>></span>
+</pre>
+                    </td>
+                    <td><dialog open>Este es un diálogo abierto</dialog></td>
+                    <td>-</td>
+                    <td>open</td>
+                    <td>37.0+</td>
+                    <td>79.0+</td>
+                    <td>53.0+</td>
+                    <td>-</td>
+                    <td>24.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>div</span><span>></span></td>
+                    <td><p>Especifica una sección en un documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>div</span><span>></span>
+        <span>Google</span>
+    <span><</span><span>/div</span><span>></span>
+</pre>
+                    </td>
+                    <td><div>Google</div></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>dl</span><span>></span></td>
+                    <td><p>Especifica una definición de una lista.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>dd</span><span>></span>
+        <span>Bebida caliente</span>
+    <span><</span><span>/dd</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <dl>
+                            <dt>Café</dt>
+                            <dd>Bebida caliente</dd>
+                        </dl>
+                    </td>
+                    <td>dt - dd</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>dt</span><span>></span></td>
+                    <td><p>Especifica una definición de un término.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>dd</span><span>></span>
+        <span>Bebida caliente</span>
+    <span><</span><span>/dd</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <dl>
+                            <dt>Café</dt>
+                            <dd>Bebida caliente</dd>
+                        </dl>
+                    </td>
+                    <td>dl - dd</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>em</span><span>></span></td>
+                    <td><p>Enfatiza el texto dentro de un documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>p</span><span>></span>
+        <span>Tú</span>
+        <span><</span><span>em</span><span>></span>
+            <span>tienes que</span>
+        <span><</span><span>/em</span><span>></span>
+        <span>apurarte!</span>
+    <span><</span><span>/p</span><span>></span>
+</pre>
+                    </td>
+                    <td><p>Tú <em>tienes que</em> apurarte!</p></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>embed</span><span>></span></td>
+                    <td><p>Define contenido interactivo externo o complemento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>embed type="image/jpg" src="op300.jpg"
+    width="100" height="100"</span><span>></span>
+</pre>
+                    </td>
+                    <td><embed type="image/jpg" src="op300.jpg" width="100" height="100"></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>fieldset</span><span>></span></td>
+                    <td><p>Especifica un conjunto de campos.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>form</span><span>></span>
+        <span><</span><span>fieldset</span><span>></span>
+            <span><</span><span>legend</span><span>></span>
+                <span>Formulario</span>
+            <span><</span><span>/legend</span><span>></span>
+            <span><</span><span>label</span>Nombre:<span>></span>
+        <span><</span><span>/fieldset</span><span>></span>
+    <span><</span><span>/form</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>Formulario</legend>
+                                <label>Nombre</label>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>form - legend - label </td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span>figcaption<span></span><span>></span></td>
+                    <td><p>Define una caption para un elemento figure.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>figure</span><span>></span>
+        <span><</span><span>figcaption</span><span>></span>
+            <span><</span><span>img src="op300.jpg" width="100"</span><span>></span>
+            <span>Fig.1 - Op300, Japón</span>
+        <span><</span><span>/figcaption</span><span>></span>
+    <span><</span><span>/figure</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="op300.jpg" alt="one piece" width="100">
+                            <figcaption>Fig.1 - Op300, Japón</figcaption>
+                        </figure>
+                    </td>
+                    <td>figure - img</td>
+                    <td>-</td>
+                    <td>8.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.1+</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td><span><</span>figure<span></span><span>></span></td>
+                    <td><p>Especifica un fragmento de contenido de flujo autónomo, normalmente referenciado como una sola unidad del flujo principal del documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>figure</span><span>></span>
+        <span><</span><span>figcaption</span><span>></span>
+            <span><</span><span>img src="op300.jpg" width="100"</span><span>></span>
+            <span>Fig.1 - Op300, Japón</span>
+        <span><</span><span>/figcaption</span><span>></span>
+    <span><</span><span>/figure</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="op300.jpg" alt="one piece" width="100">
+                            <figcaption>Fig.1 - Op300, Japón</figcaption>
+                        </figure>
+                    </td>
+                    <td>figure - img</td>
+                    <td>-</td>
+                    <td>8.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.1+</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>footer</span><span>></span></td>
+                    <td><p>Define un pie de página para un documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>footer</span><span>></span>
+        <span>Autor: Charles Layet</span>
+    <span><</span><span>/footer</span><span>></span>
+</pre>
+                    </td>
+                    <td><footer>Autor: Charles Layet</footer></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>form</span><span>></span></td>
+                    <td><p>Es usado para crear un formulario en HTML .</p></td>
+                    <td>
+<pre>
+    <span><</span><span>form</span><span>></span>
+        <span><</span><span>fieldset</span><span>></span>
+        <span><</span><span>legend</span><span>></span>
+            <span>Formulario</span>
+        <span><</span><span>/legend</span><span>></span>
+        <span><</span><span>label</span>Nombre:<span>></span>
+        <span><</span><span>/fieldset</span><span>></span>
+    <span><</span><span>/form</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>Formulario</legend>
+                                <label>Nombre</label>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>fieldset - legend - label - input - textarea - button - select - option - optgroup - output</td>
+                    <td>action</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>h1 - h6</span><span>></span></td>
+                    <td><p>Especifica .</p></td>
+                    <td>
+<pre>
+    <span><</span><span>h3</span><span>></span>
+        <span>Encabezado nivel 3</span>
+    <span><</span><span>/h3</span><span>></span>
+</pre>
+                    </td>
+                    <td><h3>Encabezado nivel 3</h3></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>head</span><span>></span></td>
+                    <td><p>Contenedor de metadata y se coloca al principio de la etiqueta HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>head</span><span>></span>
+    <span><</span><span>meta charset = "utf-8"</span><span>></span>
+    <span><</span><span>/head</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>meta - link - title</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>header</span><span>></span></td>
+                    <td><p>Representa un contenedor introductorio.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>article</span><span>></span>
+        <span><</span><span>header</span><span>></span>
+            <span>Titulo</span>
+        <span><</span><span>/header</span><span>></span>
+    <span><</span><span>/article</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <header>
+                            <article>
+                                Título
+                            </article>
+                        </header>
+                    </td>
+                    <td>article - nav - h1</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>hr</span><span>></span></td>
+                    <td><p>Define una pausa temática en una página HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>hr</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <hr>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>html</span><span>></span></td>
+                    <td><p>Representa la razi del documento HTML .</p></td>
+                    <td>
+<pre>
+    <span><</span><span>html</span><span>></span>
+        <span><</span><span>head</span><span>></span>
+        <span><</span><span>/head</span><span>></span>
+        <span><</span><span>body</span><span>></span>
+        <span><</span><span>/body</span><span>></span>
+    <span><</span><span>/html</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>head - body</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>i</span><span>></span></td>
+                    <td><p>Especifica un texto en italica.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>i</span><span>></span>
+        <span>Lorem ipsum</span>
+    <span><</span><span>/i</span><span>></span>
+</pre>
+                    </td>
+                    <td><i>Lorem ipsum</i></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>iframe</span><span>></span></td>
+                    <td><p>Especifica un marco en línea.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>iframe src="https://www.google.com" title="Google"</span><span>></span>
+    <span><</span><span>/iframe</span><span>></span>
+</pre>
+                    </td>
+                    <td><iframe src="https://www.google.com" title="Google" width="100px" height="100px"></iframe></td>
+                    <td>-</td>
+                    <td>src - title</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>img</span><span>></span></td>
+                    <td><p>Se utiliza para colocar una imagen.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>img src="op300.jpg" width="100px" height="100px"</span><span>></span>
+</pre>
+                    </td>
+                    <td><img src="op300.jpg" alt="one piece" width="100px" height="100px"></td>
+                    <td>-</td>
+                    <td>src - alt</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>input</span><span>></span></td>
+                    <td><p>Especifica un campo de entrada donde el usuario puede escribir.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>input type="text" /</span><span>></span>
+</pre>
+                    </td>
+                    <td><input /></td>
+                    <td>-</td>
+                    <td>checkbox - color - date - datetime-local - email - file - month - number - password - radio - range - search - tel- text - time - url - week</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>ins</span><span>></span></td>
+                    <td><p>Los navegadores subrayan el texto insertado.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>ins</span><span>></span>
+        <span>Importante</span>
+    <span><</span><span>/ins</span><span>></span>
+</pre>
+                    </td>
+                    <td><ins>Importante</ins></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>kbd</span><span>></span></td>
+                    <td><p>Se utiliza para definir la entrada del teclado.</p></td>
+                    <td>
+<pre>
+    <span>Presiona</span>
+    <span><</span><span>kbd</span><span>></span>
+        <span>Ctrl</span>
+    <span><</span><span>/kbd</span><span>></span>
+    <span>+</span>
+    <span><</span><span>kbd</span><span>></span>
+        <span>C</span>
+    <span><</span><span>/kbd</span><span>></span>
+    <span>para copiar texto en Windows.</span>
+</pre>
+                    </td>
+                    <td>Presiona <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar texto en Windows.</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>label</span><span>></span></td>
+                    <td><p>Define una etiqueta para distintos elementos.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>form</span><span>></span>
+        <span><</span><span>fieldset</span><span>></span>
+            <span><</span><span>legend</span><span>></span>
+                <span>Formulario</span>
+            <span><</span><span>/legend</span><span>></span>
+            <span><</span><span>label for="identificador"</span><span>></span>
+            <span><</span><span>input id="identificador" /</span><span>></span>
+        <span><</span><span>/fieldset</span><span>></span>
+    <span><</span><span>/form</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>Formulario</legend>
+                                <label for="identificador">Nombre</label>
+                                <input type="text" id="identificador">
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>legend</span><span>></span></td>
+                    <td><p>Define un título para el elemento del fieldset.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>form</span><span>></span>
+        <span><</span><span>fieldset</span><span>></span>
+            <span><</span><span>legend</span><span>></span>
+                <span>Formulario</span>
+            <span><</span><span>/legend</span><span>></span>
+            <span><</span><span>label for="identificador"</span><span>></span>
+            <span><</span><span>input id="identificador" /</span><span>></span>
+        <span><</span><span>/fieldset</span><span>></span>
+    <span><</span><span>/form</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>Formulario</legend>
+                                <label for="identificador1">Nombre</label>
+                                <input type="text" id="identificador1">
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>li</span><span>></span></td>
+                    <td><p>Declara cada uno de los elementos de una lista ya sea ordenada o desordenada.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>ul</span><span>></span>
+        <span><</span><span>li</span><span>></span>
+            <span>Punto uno</span>
+        <span><</span><span>/li</span><span>></span>
+        <span><</span><span>li</span><span>></span>
+            <span>Punto dos</span>
+        <span><</span><span>/li</span><span>></span>
+    <span><</span><span>/ul</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Punto uno</li>
+                            <li>Punto dos</li>
+                        </ul>
+                    </td>
+                    <td>ul - ol</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>link</span><span>></span></td>
+                    <td><p>Especifica la relación entre el documento actual y un recurso externo.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>link href="style.css" rel="stylesheet"</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>href</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>main</span><span>></span></td>
+                    <td><p>Representa el contenido principal del body.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>main</span><span>></span>
+        <span>Lorem ipsum</span>
+    <span><</span><span>/main</span><span>></span>
+</pre>
+                    </td>
+                    <td><main>Lorem ipsum</main></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>26.0+</td>
+                    <td>12.0+</td>
+                    <td>21.0+</td>
+                    <td>7.0+</td>
+                    <td>16.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>map</span><span>></span></td>
+                    <td><p>Mapea una imagen con áreas clickeables.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>img</span><span>/></span>
+    <span><</span><span>map</span><span>></span>
+        <span><</span><span>area shape="circle"
+    coords="337,300,44" href="op400.jpg" alt="Imagen"</span><span>></span>
+    <span><</span><span>/map</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <img src="op300.jpg" alt="Workplace" usemap="#workmap" width="100px" height="100px">
+                        <map name="workmap">
+                            <area shape="rect" coords="34,44,270,350" href="op50.jpg" alt="Imagen">
+                            <area shape="circle" coords="337,300,44" href="op400.jpg" alt="Imagen">
+                        </map>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>mark</span><span>></span></td>
+                    <td><p>Define texto que debería ser subrayado con marca-textos.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>mark</span><span>></span>
+        <span>Importante!</span>
+    <span><</span><span>/mark</span><span>></span>
+</pre>
+                    </td>
+                    <td><mark>Importante!</mark></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>6.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>meta</span><span>></span></td>
+                    <td><p>Describe la metadata en un documento HTML .</p></td>
+                    <td>
+<pre>
+    <span><</span><span>meta charset="UTF-8"</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>head</td>
+                    <td>charset - name - description - content</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>meter</span><span>></span></td>
+                    <td><p>Mide datos dentro de un ragno determinado.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>meter id="disk_c" value="2" min="0" max="10"</span><span>></span>
+        <span>2 de 10</span>
+    <span><</span><span>/meter</span><span>></span>
+</pre>
+                    </td>
+                    <td><meter id="disk_c" value="2" min="0" max="10">2 de 10</meter></td>
+                    <td>-</td>
+                    <td>value - min - max</td>
+                    <td>8.0+</td>
+                    <td>13.0+</td>
+                    <td>16.0+</td>
+                    <td>6.0+</td>
+                    <td>11.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>nav</span><span>></span></td>
+                    <td><p>Especifica un set de navegación con urls que va en el encabezado.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>nav</span><span>></span>
+        <span><</span><span>a href="https://google.com"</span><span>></span>
+            <span>Google</span>
+        <span><</span><span>/a</span><span>></span>
+        <span><</span><span>a href="https://facebook.com"</span><span>></span>
+            <span>facebook</span>
+        <span><</span><span>/a</span><span>></span>
+    <span><</span><span>/nav</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <nav>
+                            <a href="https://google.com">Google</a>
+                            <a href="https://facebook.com">Facebook</a>
+                        </nav>
+                    </td>
+                    <td>ul - li - a</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>noscript</span><span>></span></td>
+                    <td><p>Define un contenido alternativo para mostrar en caso de que los usuarios tengan deshabilitados los scripts en sus navegadores o que el navegador que utilicen no soporte scripts.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>noscript</span><span>></span>
+        <span>Tu navegador no soporta JavaScript!</span>
+    <span><</span><span>/noscript</span><span>></span>
+</pre>
+                    </td>
+                    <td><noscript>Tu navegador no soporta JavaScript!</noscript></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span></span>object<span>></span></td>
+                    <td><p>Define un contenedor para recursos externos.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>object data="video.mp4" width="100px" height="300px"</span><span>></span>
+    <span><</span><span>/object</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>ol</span><span>></span></td>
+                    <td><p>Listas ordenadas.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>ol</span><span>></span>
+        <span><</span><span>li</span><span>></span>
+            <span>Punto uno</span>
+        <span><</span><span>/li</span><span>></span>
+        <span><</span><span>li</span><span>></span>
+            <span>Punto dos</span>
+        <span><</span><span>/li</span><span>></span>
+    <span><</span><span>/ol</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>Punto uno</li>
+                            <li>Punto dos</li>
+                        </ol>
+                    </td>
+                    <td>li</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>optgroup</span><span>></span></td>
+                    <td><p>Se utiliza para agrupar opciones relacionadas a una etiqueta select.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>select</span><span>></span>
+        <span><</span><span>optgroup label="Carros Suizos"</span><span>></span>
+            <span><</span><span>option value="volvo"</span><span>></span>
+                <span>Volvo</span>
+            <span><</span><span>/option</span><span>></span>
+        <span><</span><span>/optgroup</span><span>></span>
+        <span><</span><span>optgroup label="Carros Italianos"</span><span>></span>
+            <span><</span><span>option value="Ferrari"</span><span>></span>
+                <span>Ferrari</span>
+            <span><</span><span>/option</span><span>></span>
+        <span><</span><span>/optgroup</span><span>></span>
+    <span><</span><span>/select</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <select>
+                            <optgroup label="Carros Suizos">
+                                <option value="volvo">Volvo</option>
+                            </optgroup>
+                            <optgroup label="Carros Italianos">
+                                <option value="ferrari">Ferrari</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>select - option</td>
+                    <td>label</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>optgroup</span><span>></span></td>
+                    <td><p>Se utiliza para definir las opciones de la etiqueta select.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>select</span><span>></span>
+        <span><</span><span>optgroup label="Carros Suizos"</span><span>></span>
+            <span><</span><span>option value="volvo"</span><span>></span>
+                <span>Volvo</span>
+            <span><</span><span>/option</span><span>></span>
+        <span><</span><span>/optgroup</span><span>></span>
+        <span><</span><span>optgroup label="Carros Italianos"</span><span>></span>
+            <span><</span><span>option value="Ferrari"</span><span>></span>
+                <span>Ferrari</span>
+            <span><</span><span>/option</span><span>></span>
+        <span><</span><span>/optgroup</span><span>></span>
+    <span><</span><span>/select</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <select>
+                            <optgroup label="Carros Suizos">
+                                <option value="volvo">Volvo</option>
+                            </optgroup>
+                            <optgroup label="Carros Italianos">
+                                <option value="ferrari">Ferrari</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>select - optgroup</td>
+                    <td>value</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span></span>output<span>></span></td>
+                    <td><p>Se utiliza para representar el resultado de un cálculo (como uno realizado por un script).</p></td>
+                    <td>
+<pre>
+    <span><</span><span>form
+    oninput="result.value=parseInt(a.value)+
+    parseInt(b.value)"</span><span>></span>
+        <span><</span><span>input type="range" id="b" name="b" value="50"</span><span>/></span>+
+        <span><</span><span>input type="number" id="a" name="a" value="10"</span><span>/></span>=
+        <span><</span><span>output name="result" for="a b"</span><span>></span>
+            <span>60</span>
+        <span><</span><span>/output</span><span>></span>
+    <span><</span><span>/form</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+                            <input type="range" name="b" id="b" value="50" /> +
+                            <input type="number" name="a" id="a" value="10" /> =
+                            <output name="result" for="a b">60</output>
+                        </form>
+                    </td>
+                    <td>input</td>
+                    <td>name - for</td>
+                    <td>10.0+</td>
+                    <td>13.0+</td>
+                    <td>4.0+</td>
+                    <td>5.1+</td>
+                    <td>11.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>p</span><span>></span></td>
+                    <td><p>Define un párrafo.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>p</span><span>></span>
+        <span>Lorem ipsum</span>
+    <span><</span><span>/p</span><span>></span>
+</pre>
+                    </td>
+                    <td><p>Lorem ipsum</p></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>param</span><span>></span></td>
+                    <td><p>Se utiliza para definir parameters.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>object data="horse.wav"</span><span>></span>
+        <span><</span><span>param name="autoplay" value="true"</span><span>></span>
+    <span><</span><span>/object</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>name - value</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>picture</span><span>></span></td>
+                    <td><p>Le da a los desarrolladores mayor flexibilidad para especificar los recursos de una imagen.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>picture</span><span>></span>
+        <span><</span><span>source media="(min-width:100px)" srcset="op300.jpg"</span><span>></span>
+        <span><</span><span>img src="op300.jpg" alt="one piece"</span><span>></span>
+    <span><</span><span>/picture</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <picture>
+                            <source media="(min-width:100px)" srcset="op300.jpg">
+                            <img src="op300.jpg" alt="one piece" width="100px">
+                        </picture>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>38.0+</td>
+                    <td>13.0+</td>
+                    <td>38.0+</td>
+                    <td>9.1+</td>
+                    <td>25.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>pre</span><span>></span></td>
+                    <td><p>Define un texto pre formateado, este mantiene los espacios y saltos de línea que el desarrollador haya dejado.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>pre</span><span>></span>
+    hola       soy
+    un
+    programador n uev       o
+    <span><</span><span>/pre</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+<pre>
+hola       soy
+un
+programador n uev       o
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>progress</span><span>></span></td>
+                    <td><p>Muestra el progreso completado de una tarea.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>progress id="file" value="32" max="100"</span><span>></span>
+        <span>32%</span>
+    <span><</span><span>/progress</span><span>></span>
+</pre>
+                    </td>
+                    <td><progress id="file" value="32" max="100">32%</progress></td>
+                    <td>-</td>
+                    <td>value - max</td>
+                    <td>8.0+</td>
+                    <td>10.0+</td>
+                    <td>16.0+</td>
+                    <td>6.0+</td>
+                    <td>11.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>q</span><span>></span></td>
+                    <td><p>Coloca comillas al texto.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>q</span><span>></span><span>Hola</span><span><</span><span>/q</span><span>></span>
+</pre>
+                    </td>
+                    <td><q>Hola</q></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>rp</span><span>></span></td>
+                    <td><p>Puede usarse para proveer parenthesis alrededor de un texto ruby para navegadores que no soportan anotaciones ruby.</p></td>
+                    <td>
+<pre>
+    -
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>5.5+</td>
+                    <td>38.0+</td>
+                    <td>5.0+</td>
+                    <td>15.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>rt</span><span>></span></td>
+                    <td><p>Define una explicación o pronunciación de carácteres(tipografía del este de Asia) en una notación ruby.</p></td>
+                    <td>
+<pre>
+    -
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>5.5+</td>
+                    <td>38.0+</td>
+                    <td>5.0+</td>
+                    <td>15.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>rp</span><span>></span></td>
+                    <td><p>Especifica una notación ruby.</p></td>
+                    <td>
+<pre>
+    -
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>5.5+</td>
+                    <td>38.0+</td>
+                    <td>5.0+</td>
+                    <td>15.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>s</span><span>></span></td>
+                    <td><p>Especifica un texto que ya no es correcto, preciso o relevante.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>s</span><span>></span>
+        <span>Solo 50 boletos!</span>
+    <span><</span><span>/s</span><span>></span>
+</pre>
+                    </td>
+                    <td><s>Solo 50 boletos!</s></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>samp</span><span>></span></td>
+                    <td><p>Se utiliza para definir la salida de muestra de un programa informático.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>samp</span><span>></span>
+        <span>La historia de...</span>
+    <span><</span><span>/samp</span><span>></span>
+</pre>
+                    </td>
+                    <td><samp>La historia de...</samp></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>script</span><span>></span></td>
+                    <td><p>Es usada para colocar un script del lado del cliente.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>script</span><span>></span>
+        <span>console.log('Hola mundo');</span>
+    <span><</span><span>/script</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>src</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>section</span><span>></span></td>
+                    <td><p>Define una sección del documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>section</span><span>></span>
+        <span>La guerra mundial</span>
+    <span><</span><span>/section</span><span>></span>
+</pre>
+                    </td>
+                    <td><section>La guerra mundial</section></td>
+                    <td>article</td>
+                    <td>-</td>
+                    <td>5.0+</td>
+                    <td>9.0+</td>
+                    <td>4.0+</td>
+                    <td>5.0+</td>
+                    <td>11.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>select</span><span>></span></td>
+                    <td><p>Se usa para crear un dropdown.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>select</span><span>></span>
+        <span><</span><span>optgroup label="Carros Suizos"</span><span>></span>
+            <span><</span><span>option value="volvo"</span><span>></span>
+                <span>Volvo</span>
+            <span><</span><span>/option</span><span>></span>
+        <span><</span><span>/optgroup</span><span>></span>
+        <span><</span><span>optgroup label="Carros Italianos"</span><span>></span>
+            <span><</span><span>option value="Ferrari"</span><span>></span>
+                <span>Ferrari</span>
+            <span><</span><span>/option</span><span>></span>
+        <span><</span><span>/optgroup</span><span>></span>
+    <span><</span><span>/select</span><span>></span>
+</pre>
+                    <td>
+                        <select>
+                            <optgroup label="Carros Suizos">
+                                <option value="volvo">Volvo</option>
+                            </optgroup>
+                            <optgroup label="Carros Italianos">
+                                <option value="ferrari">Ferrari</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>optgroup - opt</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>small</span><span>></span></td>
+                    <td><p>Define un texto pequeño.</p></td>
+                    <td>
+<pre>
+    <span>Hola</span>
+    <span><</span><span>small</span><span>></span>
+        <span>Hola</span>
+    <span><</span><span>/small</span><span>></span>
+</pre>
+                    </td>
+                    <td>Hola <small>Hola</small></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>source</span><span>></span></td>
+                    <td><p>Se utiliza para especificar varios recursos multimedia.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>audio controls</span><span>></span>
+        <span><</span><span>source src="horse.mp3" type="audio/mpeg"</span><span>></span>
+    <span><</span><span>/audio</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>audio - img - video</td>
+                    <td>src - type</td>
+                    <td>4.0+</td>
+                    <td>9.0+</td>
+                    <td>3.5+</td>
+                    <td>4.0+</td>
+                    <td>10.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>span</span><span>></span></td>
+                    <td><p>Se utiliza para marcar parte del texto o parte del documento.</p></td>
+                    <td>
+<pre>
+    Mi madre tiene <span><</span><span>span</span><span>></span><span>ojos</span><span><</span><span>/span</span><span>></span>
+    azules
+</pre>
+                    </td>
+                    <td>
+                        Mi madre tiene
+                        <span>ojos</span>
+                        azules
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>style</span><span>></span></td>
+                    <td><p>Contiene los estilos del documento y se colocan en el head del documento.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>style type="text/css"</span><span>></span>
+        <span>p { color: red }</span>
+    <span><</span><span>/style</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>type</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>strong</span><span>></span></td>
+                    <td><p>Define el texto como importante, normalmente lo vuelve negritas.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>strong</span><span>></span>
+        <span>Importante!</span>
+    <span><</span><span>/strong</span><span>></span>
+</pre>
+                    </td>
+                    <td><strong>Importante!</strong></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>sub</span><span>></span></td>
+                    <td><p>Define un subscript.</p></td>
+                    <td>
+<pre>
+    Este es un <span><</span><span>sub</span><span>></span><span>subscript</span><span><</span><span>/sub</span><span>></span> claro
+</pre>
+                    </td>
+                    <td>
+                        Este es un <sub>subscript</sub> claro
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>summary</span><span>></span></td>
+                    <td><p>Define un pequeño resumen para la etiqueta details.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>details</span><span>></span>
+        <span><</span><span>summary</span><span>></span>
+            <span>Epcot Center</span>
+        <span><</span><span>/summary</span><span>></span>
+        <span>Google es asombroso</span>
+    <span><</span><span>/details</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <details>
+                            <summary>Epcto Center</summary>
+                            Google es asombroso
+                        </details>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>12.0+</td>
+                    <td>79.0+</td>
+                    <td>49.0+</td>
+                    <td>6.0+</td>
+                    <td>15.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>sup</span><span>></span></td>
+                    <td><p>Define un supscript.</p></td>
+                    <td>
+<pre>
+    Este es un <span><</span><span>sup</span><span>></span><span>supscript</span><span><</span><span>/sup</span><span>></span> claro
+</pre>
+                    </td>
+                    <td>
+                        Este es un <sup>supscript</sup> claro
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>svg</span><span>></span></td>
+                    <td><p>Define un contenedor para gráficos SVG.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>svg width="100" height="100"</span><span>></span>
+        <span><</span><span>circle cs="50" cy="50"
+    r="40" stroke="green" stroke-width="4" fill="yellow"</span><span>></span>
+    <span><</span><span>/svg</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <svg width="100" height="100">
+                            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                        </svg>
+                    </td>
+                    <td>circle - rect - polygon - ellipse - defs - linearGradient - text</td>
+                    <td>-</td>
+                    <td>4.0+</td>
+                    <td>9.0+</td>
+                    <td>3.0+</td>
+                    <td>3.2+</td>
+                    <td>10.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>table</span><span>></span></td>
+                    <td><p>Define una tabla Html.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>tbody - td- tr - tfoot - th - thead</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>tbody</span><span>></span></td>
+                    <td><p>Se utiliza para agrupar el contenido del cuerpo de una tabla HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>table - td- tr - tfoot - th - thead</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>td</span><span>></span></td>
+                    <td><p>Define una celda de datos standard en una tabla HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>tbody - table - tr - tfoot - th - thead</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>tfoot</span><span>></span></td>
+                    <td><p>Agura el contenido final de una tabla Html.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>tbody - td- tr - table - th - thead</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>thead</span><span>></span></td>
+                    <td><p>Agrupa el contenido de los encabezados de una tabla HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>tbody - td- tr - tfoot - th - table</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>th</span><span>></span></td>
+                    <td><p>Define el encabezado de una celda de una tabla HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>tbody - td- tr - tfoot - thead - table</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>tr</span><span>></span></td>
+                    <td><p>Define filas en una tabla HTML.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>table</span><span>></span>
+        <span><</span><span>thead</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>th</span><span>></span>
+                <span><</span><span>/th</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/thead</span><span>></span>
+        <span><</span><span>tbody</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tbody</span><span>></span>
+        <span><</span><span>tfoot</span><span>></span>
+            <span><</span><span>tr</span><span>></span>
+                <span><</span><span>td</span><span>></span>
+                <span><</span><span>/td</span><span>></span>
+            <span><</span><span>/tr</span><span>></span>
+        <span><</span><span>/tfoot</span><span>></span>
+    <span><</span><span>/table</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>tbody - td- table - tfoot - th - thead</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>template</span><span>></span></td>
+                    <td><p>Se usa como contenedor para sostener el contenido HTML oculto del usuario cuando la página carga.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>template</span><span>></span>
+        <span>Flores</span>
+    <span><</span><span>/template</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <template>
+                            Flores
+                        </template>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>26.0+</td>
+                    <td>13.0+</td>
+                    <td>22.0+</td>
+                    <td>8.0+</td>
+                    <td>15.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>textarea</span><span>></span></td>
+                    <td><p>Define un texto multilineas.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>textarea</span><span>></span>
+        <span>Lorem ipsum</span>
+    <span><</span><span>/textarea</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <textarea name="uno" id="dos" cols="4" rows="4" style="resize:none">
+                            Lorem
+                        </textarea>
+                    </td>
+                    <td>-</td>
+                    <td>name - cols - rows</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>time</span><span>></span></td>
+                    <td><p>Define un tiempo especifico o día.</p></td>
+                    <td>
+<pre>
+    Abierto desde<span><</span><span>time</span><span>></span><span>10:00</span><span><</span><span>/time</span><span>></span> todos los días
+</pre>
+                    </td>
+                    <td>Abierto desde <time>10:00</time> todos los días</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>62.0+</td>
+                    <td>18.0+</td>
+                    <td>22.0+</td>
+                    <td>7.0+</td>
+                    <td>49.0+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>title</span><span>></span></td>
+                    <td><p>Define el título de un documento y se muestra en la pestaña del navegador.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>html</span><span>></span>
+        <span><</span><span>head</span><span>></span>
+            <span><</span><span>title</span><span>></span>
+                <span>Tíitulo</span>
+            <span><</span><span>/title</span><span>></span>
+        <span><</span><span>/head</span><span>></span>
+    <span><</span><span>/html</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>trak</span><span>></span></td>
+                    <td><p>Especifica subtitulos, archivos de subtitulos u otros archivos que contengan texto</p></td>
+                    <td>
+<pre>
+    <span><</span><span>video</span><span>></span>
+    <span><</span><span>source src="forrest_gump.mp4" type="video/mp4"</span><span>></span>
+    <span><</span><span>track src="fgsubtitles.vtt" kind="subtitles" srclang="en"</span><span>></span>
+    <span><</span><span>/video</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>video - source</td>
+                    <td>src - kind - srclang</td>
+                    <td>23.0+</td>
+                    <td>10.0+</td>
+                    <td>31.0+</td>
+                    <td>6.0+</td>
+                    <td>12.1+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>u</span><span>></span></td>
+                    <td><p>Subraya una palabra o frase de un texto</p></td>
+                    <td>
+<pre>
+    <span><</span><span>u</span><span>></span>
+        <span>HTML5</span>
+    <span><</span><span>/u</span><span>></span>
+</pre>
+                    </td>
+                    <td><u>HTML5</u></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>ul</span><span>></span></td>
+                    <td><p>Muestra una lista desordenada.</p></td>
+                    <td>
+<pre>
+    <span><</span><span>ul</span><span>></span>
+        <span><</span><span>li</span><span>></span>
+            <span>Punto uno</span>
+        <span><</span><span>/li</span><span>></span>
+        <span><</span><span>li</span><span>></span>
+            <span>Punto dos</span>
+        <span><</span><span>/li</span><span>></span>
+    <span><</span><span>/ul</span><span>></span>
+</pre>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Punto uno</li>
+                            <li>Punto dos</li>
+                        </ul>
+                    </td>
+                    </td>
+                    <td>li</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>var</span><span>></span></td>
+                    <td><p>Se utiliza para definir una variable en programación o en una expresión matemática.</p></td>
+                    <td>
+<pre>
+    El área de un triángulo es: 1/2 *
+    <span><</span><span>var</span><span>></span>b<span><</span><span>/var</span><span>></span>
+    *
+    <span><</span><span>var</span><span>></span>h<span><</span><span>/var</span><span>></span>
+</pre>
+                    </td>
+                    <td>El área de un triángulo es: 1/2 * <var>b</var> * <var>h</var></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>video</span><span>></span></td>
+                    <td><p>Se utiliza para colocar un video en un documento</p></td>
+                    <td>
+<pre>
+    <span><</span><span>video</span><span>></span>
+    <span><</span><span>source src="forrest_gump.mp4" type="video/mp4"</span><span>></span>
+    <span><</span><span>track src="fgsubtitles.vtt" kind="subtitles" srclang="en"</span><span>></span>
+    <span><</span><span>/video</span><span>></span>
+</pre>
+                    </td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>4.0+</td>
+                    <td>9.0+</td>
+                    <td>3.5+</td>
+                    <td>3.1+</td>
+                    <td>11.5+</td>
+                </tr>
+                <tr>
+                    <td><span><</span><span>wbr</span><span>></span></td>
+                    <td><p>(Word Break Opportunity) sirve para especificar que parte de un texto estaria bien agregar un salto de línea</p></td>
+                    <td>
+<pre>
+    Para aprender AJAX, debes estar familiarizdo con XML
+    <span><</span><span>wbr</span><span>></span>
+    <span>Http</span>
+    <span><</span><span>wbr</span><span>></span>
+     Request Object
+</pre>
+                    </td>
+                    <td>Para aprender AJAX, debes estar familiarizado con XML <wbr> HTTP <wbr> Request Object</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>1.0+</td>
+                    <td>12.0+</td>
+                    <td>3.0+</td>
+                    <td>4.0+</td>
+                    <td>11.7+</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
